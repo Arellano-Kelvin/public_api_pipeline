@@ -1,0 +1,4 @@
+The Symptom: exercism download --track=python --exercise=guidos-gorgeous-lasagna
+Error: mkdir C:\Users\Kelvin\Data Engineering\public_api_pipeline\C:UsersKelvinData: The directory name is invalid.
+The "Why": looking at this becasue I had already downloaded the CLI on this computer but the workspace was pointing at a different directory.
+The Fix: I tried to look up the walkthrough on the Exercism website but they only outline how to install the CLI fresh or with thier own installer. I only wanted to change the directory so looking at the format I understood from file directories that I just needed to change the name of the directory. However because I am using gitbash as my default terminal it causes error in the file name syntax sometimes. Initially I was creating an entirely new directory. So I changed the name using the forwardslash "\" as an escape character and serperator as that is the syntax on windows
